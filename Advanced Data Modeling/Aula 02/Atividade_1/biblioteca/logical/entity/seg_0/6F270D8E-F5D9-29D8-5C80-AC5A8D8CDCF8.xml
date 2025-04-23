@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6F270D8E-F5D9-29D8-5C80-AC5A8D8CDCF8" name="Livro">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-23 01:35:50 UTC</createdTime>
+<ownerDesignName>biblioteca</ownerDesignName>
+<engineerTo>
+<item key="E27110C9-C380-9F82-2183-88088553EF3B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="book_id" id="32572820-54C2-7279-0C3F-E8E93BC30DBC">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-23 01:38:51 UTC</createdTime>
+<ownerDesignName>biblioteca</ownerDesignName>
+<engineerTo>
+<item key="E27110C9-C380-9F82-2183-88088553EF3B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>08305FC7-E71A-56AA-AB8A-D9FDE5F4D642</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="title" id="529A3F4E-61E4-7F41-1C2B-EB797DCAAB1E">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-23 01:49:59 UTC</createdTime>
+<ownerDesignName>biblioteca</ownerDesignName>
+<engineerTo>
+<item key="E27110C9-C380-9F82-2183-88088553EF3B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>472C5C21-4CC5-EA1E-0762-562812582E1E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="author_last_name" id="F1A48868-1261-7261-B260-8C9C6CE45264">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-23 01:50:15 UTC</createdTime>
+<ownerDesignName>biblioteca</ownerDesignName>
+<engineerTo>
+<item key="E27110C9-C380-9F82-2183-88088553EF3B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>70DAA26E-E3B4-05A2-4633-6C56B94C3872</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="author_first_name" id="653325D8-6339-1963-83DA-0F2FC8438385">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-23 01:50:33 UTC</createdTime>
+<ownerDesignName>biblioteca</ownerDesignName>
+<engineerTo>
+<item key="E27110C9-C380-9F82-2183-88088553EF3B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>70DAA26E-E3B4-05A2-4633-6C56B94C3872</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rating" id="4D18844F-4B9C-31DD-2279-5625E5E1F765">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-23 01:51:00 UTC</createdTime>
+<ownerDesignName>biblioteca</ownerDesignName>
+<engineerTo>
+<item key="E27110C9-C380-9F82-2183-88088553EF3B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9221C520-B106-5387-F720-125E61B48277" name="Livro PK">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-23 01:39:06 UTC</createdTime>
+<ownerDesignName>biblioteca</ownerDesignName>
+<engineerTo>
+<item key="E27110C9-C380-9F82-2183-88088553EF3B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>32572820-54C2-7279-0C3F-E8E93BC30DBC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

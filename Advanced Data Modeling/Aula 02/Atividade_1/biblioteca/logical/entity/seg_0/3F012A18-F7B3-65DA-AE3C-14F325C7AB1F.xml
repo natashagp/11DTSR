@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3F012A18-F7B3-65DA-AE3C-14F325C7AB1F" name="Leitor">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-23 01:37:26 UTC</createdTime>
+<ownerDesignName>biblioteca</ownerDesignName>
+<engineerTo>
+<item key="E27110C9-C380-9F82-2183-88088553EF3B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="patron_id" id="895B96F8-73B0-BA62-FF0A-F8CB7606B7B0">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-23 01:52:28 UTC</createdTime>
+<ownerDesignName>biblioteca</ownerDesignName>
+<engineerTo>
+<item key="E27110C9-C380-9F82-2183-88088553EF3B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>385325B4-6FC1-2451-7A00-8FA1F63A6625</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="B867C51F-1F33-9B88-0D1F-9A52EEB2AD6A">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-23 01:52:43 UTC</createdTime>
+<ownerDesignName>biblioteca</ownerDesignName>
+<engineerTo>
+<item key="E27110C9-C380-9F82-2183-88088553EF3B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>70DAA26E-E3B4-05A2-4633-6C56B94C3872</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="EF9DDD28-0896-3FDD-46D4-95976E95819F">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-23 01:52:52 UTC</createdTime>
+<ownerDesignName>biblioteca</ownerDesignName>
+<engineerTo>
+<item key="E27110C9-C380-9F82-2183-88088553EF3B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>70DAA26E-E3B4-05A2-4633-6C56B94C3872</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street_address" id="A181D20D-2093-57F4-1D72-036F223A85C9">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-23 01:53:04 UTC</createdTime>
+<ownerDesignName>biblioteca</ownerDesignName>
+<engineerTo>
+<item key="E27110C9-C380-9F82-2183-88088553EF3B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DC5CCB1E-5C96-03A8-5D97-E4A78D43627F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="B1762DC8-0AFF-436E-B5CF-4B279A28BA17">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-23 01:53:22 UTC</createdTime>
+<ownerDesignName>biblioteca</ownerDesignName>
+<engineerTo>
+<item key="E27110C9-C380-9F82-2183-88088553EF3B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>483D61B1-3F49-AB5A-1902-B94B452E438B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="state" id="3FD85725-78D4-01A5-530A-C5C273F94F2F">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-23 01:54:17 UTC</createdTime>
+<ownerDesignName>biblioteca</ownerDesignName>
+<engineerTo>
+<item key="E27110C9-C380-9F82-2183-88088553EF3B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E50A9E58-72FD-0175-F604-C8B5B8A43A71</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zip" id="0C327959-8B15-9A34-0B0D-D9312DF37918">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-23 01:54:28 UTC</createdTime>
+<ownerDesignName>biblioteca</ownerDesignName>
+<engineerTo>
+<item key="E27110C9-C380-9F82-2183-88088553EF3B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>749EF6D4-152F-75A5-888B-3D848C715FEF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location" id="138098D9-01CA-6C96-2F7B-DDA31E5E64BF">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-23 01:54:37 UTC</createdTime>
+<ownerDesignName>biblioteca</ownerDesignName>
+<engineerTo>
+<item key="E27110C9-C380-9F82-2183-88088553EF3B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D9D5BB5C-8801-7F06-5BE3-A7BC95B6D376" name="Leitor PK">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-23 01:52:39 UTC</createdTime>
+<ownerDesignName>biblioteca</ownerDesignName>
+<engineerTo>
+<item key="E27110C9-C380-9F82-2183-88088553EF3B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>895B96F8-73B0-BA62-FF0A-F8CB7606B7B0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

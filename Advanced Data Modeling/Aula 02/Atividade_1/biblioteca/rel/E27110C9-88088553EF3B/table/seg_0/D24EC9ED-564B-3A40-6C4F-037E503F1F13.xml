@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D24EC9ED-564B-3A40-6C4F-037E503F1F13" name="Transações">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-23 01:58:53 UTC</createdTime>
+<generatorID>81A1EAA7-BE35-D4C5-9825-B3D231132831</generatorID>
+<ownerDesignName>biblioteca</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="transaction_id" id="2DEFD88C-7491-2D90-552C-A3A8400E00D7">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-23 01:58:53 UTC</createdTime>
+<generatorID>BD80BAF9-367F-0673-79BD-7E0C2CE54C95</generatorID>
+<ownerDesignName>biblioteca</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>385325B4-6FC1-2451-7A00-8FA1F63A6625</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction_date" id="AF0B345D-B5E2-933A-B350-11518106A0BA">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-23 01:58:53 UTC</createdTime>
+<generatorID>BE409438-7C52-F068-D2A9-D3518F8B27CF</generatorID>
+<ownerDesignName>biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction_type" id="A9625A1C-5D25-C283-B607-5367A031A7CF">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-23 01:58:53 UTC</createdTime>
+<generatorID>AE31B9A0-E496-C11B-B388-FBA17FAC4D17</generatorID>
+<ownerDesignName>biblioteca</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>385325B4-6FC1-2451-7A00-8FA1F63A6625</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Livro_book_id" id="EF452E60-D6C1-9781-20C5-89F4B58D8BC0">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-23 01:58:53 UTC</createdTime>
+<generatorID>62CAE1EF-5A6B-99D8-6A95-6103A1F1F684</generatorID>
+<ownerDesignName>biblioteca</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>08305FC7-E71A-56AA-AB8A-D9FDE5F4D642</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56381190-AB1A-2EE7-2F93-60F697365093" referredColumn="83743B10-933A-500E-F982-8F70F6EBC8F1"/>
+</associations>
+</Column>
+<Column name="Leitor_patron_id" id="3CDFE659-8EEF-047A-48A4-6F89160F0C22">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-23 01:58:53 UTC</createdTime>
+<generatorID>68A25CB2-FC97-9C55-D759-3E144109BF21</generatorID>
+<ownerDesignName>biblioteca</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>385325B4-6FC1-2451-7A00-8FA1F63A6625</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7351A5CD-FB22-66FC-19B2-A34AB5FCDC8B" referredColumn="E073A57A-7B6D-1D83-06C2-A53F0F34746C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D54FB5F-C132-3102-29BD-857B5451D1BA" name="Transações_PK">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-23 01:58:53 UTC</createdTime>
+<generatorID>29C78140-CE01-B71B-A907-FA5F4EE2E60D</generatorID>
+<ownerDesignName>biblioteca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DEFD88C-7491-2D90-552C-A3A8400E00D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAF68480-209D-732B-EEC7-7A4C7A98C5BB" name="Transações_Livro_FK">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-23 01:58:53 UTC</createdTime>
+<generatorID>CCDDCBD6-917E-A7C6-2A59-822CD2338EFD</generatorID>
+<ownerDesignName>biblioteca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF452E60-D6C1-9781-20C5-89F4B58D8BC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87D2BCF7-B5D9-4580-A0F2-7FAC37F9265A" name="Transações_Leitor_FK">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-23 01:58:53 UTC</createdTime>
+<generatorID>9884FE2A-A756-2A56-BDDB-4F9894436E65</generatorID>
+<ownerDesignName>biblioteca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CDFE659-8EEF-047A-48A4-6F89160F0C22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

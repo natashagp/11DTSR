@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A363D3FA-D237-577E-FA5E-E11A5F496E1B" containerWithKeyObject="02DCB78C-8055-D3CF-29C6-0FA915729EC4" localFKIndex="35C3D7DE-C36B-6DAF-CBD0-D94DD4B811F8" name="Cupom_Filial_FK">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>8E0E74FD-9C45-E28B-8DFB-3C9A12A98223</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<referredTableLongName>Filial</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>88A1EF71-DAC9-EF56-C225-5F8D3720CFC1</referredTableID>
+<keyObject>2B6825F8-DC8F-6C65-655C-3595F86FF535</keyObject>
+<referredKeyID>2B6825F8-DC8F-6C65-655C-3595F86FF535</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Filial_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

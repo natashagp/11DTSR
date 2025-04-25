@@ -1,0 +1,213 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88A1EF71-DAC9-EF56-C225-5F8D3720CFC1" name="Filial">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>5759BBF1-EF30-034A-07B0-6610D4D87084</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Filial_Id" id="CDD268AA-5014-DE06-D1CF-74F26E43B6E4">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>9F20C2C3-9749-52C4-C45E-7CA0A9E9CD59</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filial_Codigo" id="4E9CB94D-F391-FF53-520D-124C96EEA360">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>A55885C4-9751-D94C-B0B8-95951F2878EA</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,4,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filial_Fantasia" id="22D0F296-CFFE-88FF-1E81-E7494CD588F4">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>536ABEE5-D110-D679-BA47-694E599BE0D3</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filial_CNPJ" id="B41A7655-507D-20E8-1980-98B6442EA632">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>B16B450C-B3B1-7F77-90D2-6C5AC351617F</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filial_IE" id="71D61B59-C2CF-D59E-0072-D4288CA9509D">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>36A26905-A987-DDC5-242E-AB675F6F81AA</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filial_Endereco" id="26A72639-D70D-20BC-CF69-F1EE78646A9E">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>B9066437-B26B-7F17-1203-3B4E7168E8FE</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filial_Bairro" id="1E07EC01-F043-6A29-04A5-7FF06850BF24">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>7F383F09-066B-659C-920A-498E57E432D0</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filial_Cidade" id="18ECB047-76A3-71B0-12F0-5491E0D5804A">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>1CAA83F0-8086-4F03-34CC-112351FDFCFA</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filial_Estado" id="0A3D1601-6C94-FCBB-7F6D-2598FDE1C442">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>425C8A43-E482-4113-F419-3C828279ABE4</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filial_CEP" id="73575883-8EDA-5385-3365-C7BB6AC252AF">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>193C18DD-F224-31D8-3E85-DDF12A213AAC</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filial_Ultimo_Extrato" id="5D77E7DD-CF24-9A61-D75D-86DC35852C9D">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>C452249C-C25F-BD49-A820-FD93D9E43015</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empresa_Empresa_Id" id="C7AEA82E-97F3-5B17-EB25-EAC81772F62F">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>1D842B9F-E8E8-4E84-5AB9-D289BCF01BDB</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C589EEF-C587-DAC2-F9E4-8F5695746A11" referredColumn="AE625312-6A34-3FF5-61CD-377F4C1CC7D6"/>
+</associations>
+</Column>
+<Column name="Parametro_Parametro_Id" id="BFAB3C1D-92F9-C90D-B9FC-6492FAE4B267">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>2A4D17EE-FC2A-3D44-5763-B4609AE4DF5C</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A81845FE-8E46-A080-AC75-CF278DB29497" referredColumn="49AF5E1A-B20A-E4B0-79F1-95E969FA9509"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B6825F8-DC8F-6C65-655C-3595F86FF535" name="Filial_PK">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>9646322F-4469-1756-B44A-26ACF600702A</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDD268AA-5014-DE06-D1CF-74F26E43B6E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="303F7552-403F-DE95-2702-EBB76FB7EB8D" name="Filial_Empresa_FK">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>B0E48946-1718-4AC7-A72A-14431F4BD061</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7AEA82E-97F3-5B17-EB25-EAC81772F62F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE594E0B-6B8C-EE36-1D3F-21A9211B1175" name="Filial_Parametro_FK">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>81CFB2ED-BC05-26BB-95D3-4B21CD840EF6</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFAB3C1D-92F9-C90D-B9FC-6492FAE4B267"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

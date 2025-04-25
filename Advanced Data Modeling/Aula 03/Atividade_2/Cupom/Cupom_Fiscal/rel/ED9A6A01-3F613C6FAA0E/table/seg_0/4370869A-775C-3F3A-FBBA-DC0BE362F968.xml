@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4370869A-775C-3F3A-FBBA-DC0BE362F968" name="Empresa">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>1C2848F0-DB07-A11B-868F-DE2DC2A09F56</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Empresa_Id" id="AE625312-6A34-3FF5-61CD-377F4C1CC7D6">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>61CAFBED-71F5-9462-EB43-2FD0EB94A04B</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empresa_Codigo" id="117B73FA-5367-3D4C-1973-CCF3E742C47B">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>18807C97-8398-D947-847A-DCBC521B771E</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empresa_Nome" id="AFA4D84C-FF11-B629-A1D2-4654A536D37A">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>81952ECB-2570-A472-1DDA-05894C75A36A</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2AC5AE8A-94AA-F10A-A613-3465DD318633" name="Empresa_PK">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>1A6486B8-342A-059D-DBB8-6E55639BBB45</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE625312-6A34-3FF5-61CD-377F4C1CC7D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

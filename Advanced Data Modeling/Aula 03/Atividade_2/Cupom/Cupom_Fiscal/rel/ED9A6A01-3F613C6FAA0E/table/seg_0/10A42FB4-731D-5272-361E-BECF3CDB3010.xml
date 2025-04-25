@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10A42FB4-731D-5272-361E-BECF3CDB3010" name="Itens_Cupom">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>EA426C4F-635E-18B8-62B7-178E5849B08D</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Item_Cupom_Id" id="758C9D27-31B5-D0B5-11E5-EB3FB2E92BD6">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>D748BEBA-98D4-8FCC-75B7-4EC1ECFB5593</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Item_Cupom_Sequencia" id="23A833CA-C263-9E3B-0873-E5974E84A364">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>3CB04EDD-9E6B-73BA-199B-B92608678A0E</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Item_Cupom_Quantidade" id="081B54F8-B56A-1EE2-A2DF-9ACE6CA23D03">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>400E7968-7E77-FAFC-4F58-6542FA37934E</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Item_Cupom_Unitario" id="AEA92428-EFA6-C05E-9C21-D4681FD69573">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>260246E2-242B-C5B5-AE30-1AA29881A809</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Item_Cupom_Total_Item" id="5A6E003F-24AA-4A8C-B605-7B7AACBC7BAA">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>FB300CB8-2061-45CC-E7D7-9A31F214C22A</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Produto_Produto_Id" id="FF88B6FE-9962-96E9-AC0F-39D68B4FEB84">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>AB98EBD9-38FE-EDA6-DD36-A433A55D42AB</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E77B394-921F-004F-F4A4-B1C963A09443" referredColumn="231D0F15-FC1C-7583-C597-0BA7CA736364"/>
+</associations>
+</Column>
+<Column name="Cupom_Cupom_Id" id="C5CDBFAB-9571-4421-09BC-4ACC04CF9E69">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>4EA286B8-639E-5807-74FE-E1695BAA1C7C</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="797CCFBF-F49E-EB1D-6331-6A3C508367DE" referredColumn="9A972967-CF83-E643-8D08-BAB1DAC12828"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="931A1DC6-6E78-4B25-7CFF-090467660369" name="Itens_Cupom_PK">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>4BADAB70-20D8-43EE-24D9-F7B5FD95F9B6</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="758C9D27-31B5-D0B5-11E5-EB3FB2E92BD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91D8A6FD-9CC4-738B-678F-FA2C75483BF5" name="Itens_Cupom_Produto_FK">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>1B2EDA4D-4E97-5D8B-209E-4A48404EFAA4</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF88B6FE-9962-96E9-AC0F-39D68B4FEB84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7715DC0E-F98B-C3D8-25AD-34A9F744231D" name="Itens_Cupom_Cupom_FK">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>10468620-F16E-99E1-EA03-29B95C3DF25A</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5CDBFAB-9571-4421-09BC-4ACC04CF9E69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

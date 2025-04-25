@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="B0E48946-1718-4AC7-A72A-14431F4BD061">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-23 23:14:29 UTC</createdTime>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="ED9A6A01-9259-1E5C-5BB1-3F613C6FAA0E" value="true"/>
+</engineerTo>
+<sourcePk>1A6486B8-342A-059D-DBB8-6E55639BBB45</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1C2848F0-DB07-A11B-868F-DE2DC2A09F56</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5759BBF1-EF30-034A-07B0-6610D4D87084</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

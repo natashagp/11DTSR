@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0AEA66E9-1114-10E2-604E-5FF2AC507A10" name="Produto">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-23 22:56:50 UTC</createdTime>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="ED9A6A01-9259-1E5C-5BB1-3F613C6FAA0E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Produto_Id" id="4507FCA8-DBC1-EA55-AB98-689336336DC6">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-23 22:56:59 UTC</createdTime>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="ED9A6A01-9259-1E5C-5BB1-3F613C6FAA0E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Produto_Codigo" id="35FB2DA9-D915-E407-65C1-945247357CDB">
+<createdBy>informatica</createdBy>
+<createdTime>2025-04-24 11:38:54 UTC</createdTime>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="ED9A6A01-9259-1E5C-5BB1-3F613C6FAA0E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Produto_Descricao" id="2318A8A7-86DC-D0EB-93CA-EFE3D548C962">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-23 22:57:48 UTC</createdTime>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="ED9A6A01-9259-1E5C-5BB1-3F613C6FAA0E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Produto_Unitario" id="267D158B-5388-AFB4-4166-A46389B13E78">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-23 22:58:42 UTC</createdTime>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="ED9A6A01-9259-1E5C-5BB1-3F613C6FAA0E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="750D2F23-ED99-11DE-3C66-BC427DDFE63A" name="Produto PK">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-23 23:20:24 UTC</createdTime>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="ED9A6A01-9259-1E5C-5BB1-3F613C6FAA0E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4507FCA8-DBC1-EA55-AB98-689336336DC6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

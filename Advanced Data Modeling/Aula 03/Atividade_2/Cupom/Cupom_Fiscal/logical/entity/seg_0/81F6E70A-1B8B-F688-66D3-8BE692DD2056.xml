@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="81F6E70A-1B8B-F688-66D3-8BE692DD2056" name="Parametro">
+<createdBy>informatica</createdBy>
+<createdTime>2025-04-24 11:17:43 UTC</createdTime>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="ED9A6A01-9259-1E5C-5BB1-3F613C6FAA0E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Parametro_Id" id="532A3AC8-E4B2-9B67-14F0-FD4A3BC7F88E">
+<createdBy>informatica</createdBy>
+<createdTime>2025-04-24 11:18:03 UTC</createdTime>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="ED9A6A01-9259-1E5C-5BB1-3F613C6FAA0E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Parametro_Filial_Codigo" id="046AEBCF-C419-684E-EB6C-0F4C6EFBD0D8">
+<createdBy>informatica</createdBy>
+<createdTime>2025-04-24 11:52:49 UTC</createdTime>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="ED9A6A01-9259-1E5C-5BB1-3F613C6FAA0E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Parametro_Cupom_id" id="15A65BF2-A580-C9DA-F9EC-4D69AD35BC73">
+<createdBy>informatica</createdBy>
+<createdTime>2025-04-24 11:27:57 UTC</createdTime>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="ED9A6A01-9259-1E5C-5BB1-3F613C6FAA0E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Parametro_Item_Cupom_Id" id="E628658A-52B2-EE5D-D071-B374090C3BE5">
+<createdBy>informatica</createdBy>
+<createdTime>2025-04-24 11:19:51 UTC</createdTime>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="ED9A6A01-9259-1E5C-5BB1-3F613C6FAA0E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Parametro_Produto_Id" id="A47C0126-46BE-6140-EC1E-08511C45BEAA">
+<createdBy>informatica</createdBy>
+<createdTime>2025-04-24 11:24:13 UTC</createdTime>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="ED9A6A01-9259-1E5C-5BB1-3F613C6FAA0E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Parametro_Pagamento_Id" id="8948A9EF-B3C2-1E3C-AEDF-8380FBD53C5B">
+<createdBy>informatica</createdBy>
+<createdTime>2025-04-24 11:45:48 UTC</createdTime>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="ED9A6A01-9259-1E5C-5BB1-3F613C6FAA0E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="75674014-B628-3FC4-3FC3-423B31BBCFAD" name="Parametro PK">
+<createdBy>informatica</createdBy>
+<createdTime>2025-04-24 11:19:34 UTC</createdTime>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="ED9A6A01-9259-1E5C-5BB1-3F613C6FAA0E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>532A3AC8-E4B2-9B67-14F0-FD4A3BC7F88E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A81845FE-8E46-A080-AC75-CF278DB29497" containerWithKeyObject="88A1EF71-DAC9-EF56-C225-5F8D3720CFC1" localFKIndex="FE594E0B-6B8C-EE36-1D3F-21A9211B1175" name="Filial_Parametro_FK">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-24 23:56:43 UTC</createdTime>
+<generatorID>81CFB2ED-BC05-26BB-95D3-4B21CD840EF6</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<referredTableLongName>Parametro</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AF6CAF4C-5229-DF90-DC55-29F468CCDAD3</referredTableID>
+<keyObject>F65FB330-6CCA-9DF2-F8A6-1102E7158D8A</keyObject>
+<referredKeyID>F65FB330-6CCA-9DF2-F8A6-1102E7158D8A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Parametro_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

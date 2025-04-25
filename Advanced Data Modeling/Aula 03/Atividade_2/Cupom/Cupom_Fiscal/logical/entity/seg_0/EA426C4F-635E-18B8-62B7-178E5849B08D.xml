@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA426C4F-635E-18B8-62B7-178E5849B08D" name="Itens_Cupom">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-23 23:22:49 UTC</createdTime>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="ED9A6A01-9259-1E5C-5BB1-3F613C6FAA0E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Item_Cupom_Id" id="D748BEBA-98D4-8FCC-75B7-4EC1ECFB5593">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-23 23:23:38 UTC</createdTime>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="ED9A6A01-9259-1E5C-5BB1-3F613C6FAA0E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Item_Cupom_Sequencia" id="3CB04EDD-9E6B-73BA-199B-B92608678A0E">
+<createdBy>informatica</createdBy>
+<createdTime>2025-04-24 11:22:15 UTC</createdTime>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="ED9A6A01-9259-1E5C-5BB1-3F613C6FAA0E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Item_Cupom_Quantidade" id="400E7968-7E77-FAFC-4F58-6542FA37934E">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-23 23:28:08 UTC</createdTime>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="ED9A6A01-9259-1E5C-5BB1-3F613C6FAA0E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Item_Cupom_Unitario" id="260246E2-242B-C5B5-AE30-1AA29881A809">
+<createdBy>informatica</createdBy>
+<createdTime>2025-04-24 11:03:56 UTC</createdTime>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="ED9A6A01-9259-1E5C-5BB1-3F613C6FAA0E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Item_Cupom_Total_Item" id="FB300CB8-2061-45CC-E7D7-9A31F214C22A">
+<createdBy>informatica</createdBy>
+<createdTime>2025-04-24 11:05:52 UTC</createdTime>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="ED9A6A01-9259-1E5C-5BB1-3F613C6FAA0E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Produto_Id" id="AB98EBD9-38FE-EDA6-DD36-A433A55D42AB">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-23 23:27:21 UTC</createdTime>
+<generatorID>1B2EDA4D-4E97-5D8B-209E-4A48404EFAA4</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="ED9A6A01-9259-1E5C-5BB1-3F613C6FAA0E" value="true"/>
+</engineerTo>
+<referedAttribute>4507FCA8-DBC1-EA55-AB98-689336336DC6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cupom_Id" id="4EA286B8-639E-5807-74FE-E1695BAA1C7C">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-23 23:30:07 UTC</createdTime>
+<generatorID>10468620-F16E-99E1-EA03-29B95C3DF25A</generatorID>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="ED9A6A01-9259-1E5C-5BB1-3F613C6FAA0E" value="true"/>
+</engineerTo>
+<referedAttribute>B8561958-4AFB-B1B6-1DED-EAC935A313E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4BADAB70-20D8-43EE-24D9-F7B5FD95F9B6" name="Itens_Cupom PK">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-23 23:24:08 UTC</createdTime>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="ED9A6A01-9259-1E5C-5BB1-3F613C6FAA0E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D748BEBA-98D4-8FCC-75B7-4EC1ECFB5593</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

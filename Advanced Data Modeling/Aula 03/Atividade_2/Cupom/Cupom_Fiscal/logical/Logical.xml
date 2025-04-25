@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="668DF6BC-79FA-0219-B969-2356FBA5F8BA" mainViewID="CE493EA1-BEB4-4137-914D-3C55B1F3D1CB">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-23 21:44:21 UTC</createdTime>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

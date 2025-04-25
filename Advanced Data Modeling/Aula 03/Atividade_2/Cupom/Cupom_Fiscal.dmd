@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Cupom_Fiscal" id="1EF055E2-CD03-60A2-B343-58A127419456" version="3.5">
+<createdBy>AroldoGalves</createdBy>
+<createdTime>2025-04-23 21:44:21 UTC</createdTime>
+<ownerDesignName>Cupom_Fiscal</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1EF055E2-CD03-60A2-B343-58A127419456</designId>
+</OSDM_Design>

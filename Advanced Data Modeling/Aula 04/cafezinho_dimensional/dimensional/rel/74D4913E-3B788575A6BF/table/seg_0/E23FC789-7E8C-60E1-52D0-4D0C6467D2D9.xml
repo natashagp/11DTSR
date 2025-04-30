@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E23FC789-7E8C-60E1-52D0-4D0C6467D2D9" name="Dim_Pagamento">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:45:15 UTC</createdTime>
+<generatorID>F519BC99-09C6-B9F7-952D-0106D9F5550E</generatorID>
+<ownerDesignName>dimensional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pagamento_Id" id="1CC370D3-0596-9BDE-CEB0-4938BEDA100A">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:45:15 UTC</createdTime>
+<generatorID>1BA8CFF8-C136-BA0B-DF8A-BB04F1276191</generatorID>
+<ownerDesignName>dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pagamento_Codigo" id="52712945-AF48-CC52-4380-FFEED5E656AE">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:45:15 UTC</createdTime>
+<generatorID>61E3DC9E-29EC-D44E-3F09-A25A1E38E784</generatorID>
+<ownerDesignName>dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pagamento_Descricao" id="03387B45-DCA0-4101-91DA-2666E132DBEA">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:45:15 UTC</createdTime>
+<generatorID>AAC35460-1C8A-2751-7780-D4F00DAE1747</generatorID>
+<ownerDesignName>dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38A41E0A-28C2-03CD-9138-675D440114AD" name="Dim_Pagamento_PK">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:45:15 UTC</createdTime>
+<generatorID>A29117FE-5A8E-3224-8608-9F4D7541995D</generatorID>
+<ownerDesignName>dimensional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CC370D3-0596-9BDE-CEB0-4938BEDA100A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

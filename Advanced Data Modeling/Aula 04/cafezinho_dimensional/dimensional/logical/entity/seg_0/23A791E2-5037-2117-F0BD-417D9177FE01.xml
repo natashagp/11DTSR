@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="23A791E2-5037-2117-F0BD-417D9177FE01" name="Dim_Produto">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-29 23:41:25 UTC</createdTime>
+<ownerDesignName>dimensional</ownerDesignName>
+<engineerTo>
+<item key="74D4913E-9F81-0E87-DF02-3B788575A6BF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Produto_Id " id="87640BD2-AC54-4935-82C0-0084B9E10E95">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:18:26 UTC</createdTime>
+<ownerDesignName>dimensional</ownerDesignName>
+<engineerTo>
+<item key="74D4913E-9F81-0E87-DF02-3B788575A6BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Produto_Codigo" id="8102C4B1-DCBF-4442-3D07-68955FE77E9E">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:18:33 UTC</createdTime>
+<ownerDesignName>dimensional</ownerDesignName>
+<engineerTo>
+<item key="74D4913E-9F81-0E87-DF02-3B788575A6BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Produto_Descricao" id="F6EE3D94-A60D-44D2-4377-F1C400260308">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:18:37 UTC</createdTime>
+<ownerDesignName>dimensional</ownerDesignName>
+<engineerTo>
+<item key="74D4913E-9F81-0E87-DF02-3B788575A6BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Produto_Valor_Unitario" id="1B275872-6763-AFC3-3DB6-971B7FD10B16">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:26:01 UTC</createdTime>
+<ownerDesignName>dimensional</ownerDesignName>
+<engineerTo>
+<item key="74D4913E-9F81-0E87-DF02-3B788575A6BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CC4163BF-2E23-9075-5D2E-5A7DC07573AE" name="Dim_Produto PK">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:25:35 UTC</createdTime>
+<ownerDesignName>dimensional</ownerDesignName>
+<engineerTo>
+<item key="74D4913E-9F81-0E87-DF02-3B788575A6BF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>87640BD2-AC54-4935-82C0-0084B9E10E95</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

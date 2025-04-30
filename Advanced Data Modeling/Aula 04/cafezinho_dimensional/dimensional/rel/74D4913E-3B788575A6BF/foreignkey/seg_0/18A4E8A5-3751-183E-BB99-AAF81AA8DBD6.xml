@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="18A4E8A5-3751-183E-BB99-AAF81AA8DBD6" containerWithKeyObject="AD19283A-5C0E-D066-8E46-80E13D0BD4AD" localFKIndex="54C15D93-DBF4-FBF5-6588-06D13DF8E7CF" name="Fato_Cupom_Dim_Pagamento_FK">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:45:15 UTC</createdTime>
+<generatorID>C3EFC2F1-9168-E5EE-C398-E533A2FB0B85</generatorID>
+<ownerDesignName>dimensional</ownerDesignName>
+<referredTableLongName>Dim_Pagamento</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E23FC789-7E8C-60E1-52D0-4D0C6467D2D9</referredTableID>
+<keyObject>38A41E0A-28C2-03CD-9138-675D440114AD</keyObject>
+<referredKeyID>38A41E0A-28C2-03CD-9138-675D440114AD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Pagamento_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

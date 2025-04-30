@@ -1,0 +1,520 @@
+{
+  "modelName": "New Model",
+  "collections": [
+    {
+      "collectionName": "Nota Fiscal",
+      "type": "object",
+      "properties": [
+        {
+          "name": "Nota Fiscal ID",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "properties": [],
+          "error": {},
+          "GUID": "dd55ffbf-1970-4c02-a589-181419c27bc9"
+        },
+        {
+          "name": "Data Emissao",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "properties": [],
+          "GUID": "21e3a48d-57a5-4286-ab04-fd8ea2be2e84",
+          "error": {}
+        },
+        {
+          "name": "Estabelecimento",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "document",
+          "properties": [
+            {
+              "name": "Nome",
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "string",
+              "properties": [],
+              "GUID": "e3954b38-b9c4-4ce6-b651-ab9a633d4dd0",
+              "error": {}
+            },
+            {
+              "name": "Endereco",
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "string",
+              "properties": [],
+              "GUID": "89872da9-e0b6-47a3-a041-6f01c0f431ab",
+              "error": {}
+            },
+            {
+              "name": "Bairro",
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "string",
+              "properties": [],
+              "GUID": "ee1b9b02-baef-4433-8671-efa88035be05",
+              "error": {}
+            },
+            {
+              "name": "Cidade",
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "string",
+              "properties": [],
+              "GUID": "1c12cffa-47ca-4c1c-b297-dc2f3d585564",
+              "error": {}
+            },
+            {
+              "name": "Estado",
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "string",
+              "properties": [],
+              "GUID": "ffa63297-f44e-4290-a059-250d4aabaced",
+              "error": {}
+            },
+            {
+              "name": "CEP",
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "string",
+              "properties": [],
+              "error": {},
+              "GUID": "da83c3f7-2123-45e0-8a1c-770cf5761528"
+            },
+            {
+              "name": "CNPJ",
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "string",
+              "properties": [],
+              "GUID": "f487fd48-1c96-45a9-8cd0-38b97916a568",
+              "error": {}
+            },
+            {
+              "name": "IE",
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "string",
+              "properties": [],
+              "GUID": "9a36fdb0-6c40-4614-b94f-832041d007ee",
+              "error": {}
+            }
+          ],
+          "additionalProperties": false,
+          "error": {},
+          "GUID": "ddf218ec-fcad-4c1e-84f8-5d7057f51a58"
+        },
+        {
+          "name": "Produtos",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "array",
+          "properties": [
+            {
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "document",
+              "properties": [
+                {
+                  "name": "Codigo",
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "string",
+                  "properties": [],
+                  "GUID": "21ac639d-ccce-4486-8a6c-dec03f75121c",
+                  "error": {}
+                },
+                {
+                  "name": "Nome do Produto",
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "string",
+                  "properties": [],
+                  "GUID": "1fa5607b-a7a1-47ee-aa6d-f447fef78016",
+                  "error": {}
+                },
+                {
+                  "name": "Quantidade",
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "integer",
+                  "properties": [],
+                  "GUID": "002ac506-0c77-4ebb-95b5-0589dead66c1",
+                  "error": {}
+                },
+                {
+                  "name": "Preco Unitario",
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "numeric",
+                  "properties": [],
+                  "GUID": "2d6327fb-57bb-4aca-a4de-69b9ae7b98fc",
+                  "error": {}
+                },
+                {
+                  "name": "Total Item",
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "numeric",
+                  "properties": [],
+                  "GUID": "82aac19a-2023-4caa-ae3c-44552c60a5fe",
+                  "error": {}
+                }
+              ],
+              "additionalProperties": false,
+              "error": {},
+              "GUID": "007b96a1-9375-4943-be36-5fd060dde022",
+              "arrayItem": true
+            },
+            {
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "document",
+              "properties": [
+                {
+                  "name": "Codigo",
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "string",
+                  "properties": [],
+                  "GUID": "6faeb27f-4794-46ef-90cb-9a0cce2c5db8",
+                  "error": {}
+                },
+                {
+                  "name": "Nome do Produto",
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "string",
+                  "properties": [],
+                  "GUID": "9c135fc0-d84f-4716-a236-d31de756d4bd",
+                  "error": {}
+                },
+                {
+                  "name": "Quantidade",
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "integer",
+                  "properties": [],
+                  "GUID": "37581ceb-3bd1-40f3-ae4c-0b6caafcceb8",
+                  "error": {}
+                },
+                {
+                  "name": "Preco Unitario",
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "numeric",
+                  "properties": [],
+                  "GUID": "840f0e3c-a536-4d2b-9e28-b0a76ac6915c",
+                  "error": {}
+                },
+                {
+                  "name": "Total Item",
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "numeric",
+                  "properties": [],
+                  "GUID": "fd34f8ab-3b33-4f9c-b1ed-63b08c17021d",
+                  "error": {}
+                }
+              ],
+              "additionalProperties": false,
+              "error": {},
+              "GUID": "5c6bb492-2de4-4cde-b728-f01921e237de",
+              "arrayItem": true,
+              "foreignCollection": "",
+              "foreignField": []
+            },
+            {
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "document",
+              "properties": [
+                {
+                  "name": "Codigo",
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "string",
+                  "properties": [],
+                  "GUID": "e2981d90-6519-4143-a0f1-f2fecf100aff",
+                  "error": {}
+                },
+                {
+                  "name": "Nome do Produto",
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "string",
+                  "properties": [],
+                  "GUID": "d0d7512c-7085-4642-8bf5-b497c44d3a8f",
+                  "error": {}
+                },
+                {
+                  "name": "Quantidade",
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "integer",
+                  "properties": [],
+                  "GUID": "13041606-7898-4417-add0-4354fc32c106",
+                  "error": {}
+                },
+                {
+                  "name": "Preco Unitario",
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "numeric",
+                  "properties": [],
+                  "GUID": "0d5499ac-8355-4b2a-80e2-674d35b1702a",
+                  "error": {}
+                },
+                {
+                  "name": "Total Item",
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "numeric",
+                  "properties": [],
+                  "GUID": "ed4c9d9d-9be5-482b-8c1a-0979364ca9db",
+                  "error": {}
+                }
+              ],
+              "additionalProperties": false,
+              "error": {},
+              "GUID": "808828dd-ea3b-4b39-97ed-1579d53b21a2",
+              "arrayItem": true,
+              "foreignCollection": "",
+              "foreignField": []
+            }
+          ],
+          "additionalItems": true,
+          "error": {},
+          "GUID": "a55875a3-ce44-4ce6-b490-ec9f616d69e3"
+        },
+        {
+          "name": "Quantidade Total de Itens",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "integer",
+          "properties": [],
+          "GUID": "e98d5dd2-7089-4002-892a-20e3a22e8644",
+          "error": {}
+        },
+        {
+          "name": "Valor Sem Desconto",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "numeric",
+          "properties": [],
+          "GUID": "b7312827-037d-416b-bb20-d6649e608c97",
+          "error": {}
+        },
+        {
+          "name": "Desconto",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "numeric",
+          "properties": [],
+          "GUID": "2d481d7a-f0b5-4189-8678-84d85cf84896",
+          "error": {}
+        },
+        {
+          "name": "Valor Final",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "numeric",
+          "properties": [],
+          "GUID": "8e6a4dcc-9b16-412e-8edf-ca7253462988",
+          "error": {}
+        },
+        {
+          "name": "Pagamento",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "document",
+          "properties": [
+            {
+              "name": "Codigo",
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "integer",
+              "properties": [],
+              "GUID": "fab8a2be-d384-4f80-b241-db899560a054",
+              "error": {}
+            },
+            {
+              "name": "Descricao",
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "string",
+              "properties": [],
+              "GUID": "01523869-b588-4f4f-bd79-62a88a01eab2",
+              "error": {}
+            },
+            {
+              "name": "Valor",
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "numeric",
+              "properties": [],
+              "GUID": "85dea301-bf5f-406f-8cde-a3d9690f6b13",
+              "error": {}
+            }
+          ],
+          "additionalProperties": false,
+          "GUID": "f236ca25-cfd1-452d-ba76-fe0ab60e2ff6",
+          "error": {}
+        },
+        {
+          "name": "Troco",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "numeric",
+          "properties": [],
+          "GUID": "c93c7bc6-fd93-4eb5-98ff-bd5760c1942d",
+          "error": {}
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "a6c0728f-3c7b-4511-a638-ab801cad9fba"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "GUID": "61b0ae38-3fac-44bb-834a-3dd2c759fd88",
+      "hackoladeMeta": {}
+    }
+  ],
+  "buckets": [],
+  "views": [],
+  "relationships": [],
+  "users": [],
+  "diagramViews": [],
+  "idToNameHashTable": {
+    "61b0ae38-3fac-44bb-834a-3dd2c759fd88": "Nota Fiscal",
+    "dd55ffbf-1970-4c02-a589-181419c27bc9": "Nota Fiscal ID",
+    "21e3a48d-57a5-4286-ab04-fd8ea2be2e84": "Data Emissao",
+    "ddf218ec-fcad-4c1e-84f8-5d7057f51a58": "Estabelecimento",
+    "e3954b38-b9c4-4ce6-b651-ab9a633d4dd0": "Nome",
+    "89872da9-e0b6-47a3-a041-6f01c0f431ab": "Endereco",
+    "ee1b9b02-baef-4433-8671-efa88035be05": "Bairro",
+    "1c12cffa-47ca-4c1c-b297-dc2f3d585564": "Cidade",
+    "ffa63297-f44e-4290-a059-250d4aabaced": "Estado",
+    "da83c3f7-2123-45e0-8a1c-770cf5761528": "CEP",
+    "f487fd48-1c96-45a9-8cd0-38b97916a568": "CNPJ",
+    "9a36fdb0-6c40-4614-b94f-832041d007ee": "IE",
+    "a55875a3-ce44-4ce6-b490-ec9f616d69e3": "Produtos",
+    "7bec6432-4f07-4f0c-8c56-69da21f223d2": "New Field",
+    "21ac639d-ccce-4486-8a6c-dec03f75121c": "Codigo",
+    "1fa5607b-a7a1-47ee-aa6d-f447fef78016": "Nome do Produto",
+    "002ac506-0c77-4ebb-95b5-0589dead66c1": "Quantidade",
+    "2d6327fb-57bb-4aca-a4de-69b9ae7b98fc": "Preco Unitario",
+    "82aac19a-2023-4caa-ae3c-44552c60a5fe": "Total Item",
+    "6faeb27f-4794-46ef-90cb-9a0cce2c5db8": "Codigo",
+    "9c135fc0-d84f-4716-a236-d31de756d4bd": "Nome do Produto",
+    "37581ceb-3bd1-40f3-ae4c-0b6caafcceb8": "Quantidade",
+    "840f0e3c-a536-4d2b-9e28-b0a76ac6915c": "Preco Unitario",
+    "fd34f8ab-3b33-4f9c-b1ed-63b08c17021d": "Total Item",
+    "e2981d90-6519-4143-a0f1-f2fecf100aff": "Codigo",
+    "d0d7512c-7085-4642-8bf5-b497c44d3a8f": "Nome do Produto",
+    "13041606-7898-4417-add0-4354fc32c106": "Quantidade",
+    "0d5499ac-8355-4b2a-80e2-674d35b1702a": "Preco Unitario",
+    "ed4c9d9d-9be5-482b-8c1a-0979364ca9db": "Total Item",
+    "e98d5dd2-7089-4002-892a-20e3a22e8644": "Quantidade Total de Itens",
+    "b7312827-037d-416b-bb20-d6649e608c97": "Valor Sem Desconto",
+    "2d481d7a-f0b5-4189-8678-84d85cf84896": "Desconto",
+    "8e6a4dcc-9b16-412e-8edf-ca7253462988": "Valor Final",
+    "f236ca25-cfd1-452d-ba76-fe0ab60e2ff6": "Pagamento",
+    "fab8a2be-d384-4f80-b241-db899560a054": "Codigo",
+    "01523869-b588-4f4f-bd79-62a88a01eab2": "Descricao",
+    "85dea301-bf5f-406f-8cde-a3d9690f6b13": "Valor",
+    "c93c7bc6-fd93-4eb5-98ff-bd5760c1942d": "Troco"
+  },
+  "definitions": {
+    "type": "definitions",
+    "properties": [],
+    "GUID": "bd11ab99-d293-4b23-907f-5cd7ae667abf"
+  },
+  "polyglotDefinitions": {
+    "type": "polyglotDefinitions",
+    "properties": [],
+    "GUID": "1e7cf95e-80a4-4d55-9b08-5f650778df29"
+  },
+  "externalDefinitions": {
+    "type": "externalDefinitions",
+    "properties": [],
+    "GUID": "51af1a67-584a-4d59-9865-a316ae0ffae5"
+  },
+  "sources": [],
+  "decorativeSymbols": [],
+  "dbVendor": "JSON",
+  "dbVersion": "2019-09",
+  "appTarget": "JSON",
+  "creationTS": "2025-04-30T01:45:00.447Z",
+  "GUID": "6456d7bb-9e9e-4b46-a4d0-d0dabfc3c313",
+  "isLineageEnabled": false,
+  "lastModifTS": "2025-04-30T14:12:20.083Z",
+  "persistenceSchemaVersion": "8",
+  "isCreatedByPlugin": true,
+  "pluginInformation": {
+    "pluginEngineVersion": "1.0.0"
+  },
+  "applicationInformation": {
+    "version": "8.1.4"
+  },
+  "hackoladeMeta": {},
+  "settings": {
+    "centralPane": {
+      "dbLevel": {
+        "erd": [
+          {
+            "GUID": "61b0ae38-3fac-44bb-834a-3dd2c759fd88",
+            "x": 1008,
+            "y": 791.2000122070312,
+            "width": 551,
+            "height": 757,
+            "color": {}
+          }
+        ],
+        "erdDefinitions": {
+          "erd": [],
+          "rootPath": [],
+          "entities": [],
+          "decorativeSymbols": []
+        },
+        "buckets": [],
+        "collapsedNodes": [],
+        "activeRelationship": "",
+        "activeRelationshipFields": {
+          "childField": [],
+          "parentField": []
+        },
+        "selectedCollections": [],
+        "displayColorPicker": false,
+        "graphView": {
+          "erd": [],
+          "buckets": [],
+          "decorativeSymbols": [],
+          "forceLayout": true,
+          "defaultLinkLength": 300
+        },
+        "diagramViews": [],
+        "decorativeSymbols": [],
+        "nestedCollectionsLayout": "horizontal",
+        "options": [
+          {
+            "autoWidth": false,
+            "autoHeight": false,
+            "GUID": "61b0ae38-3fac-44bb-834a-3dd2c759fd88"
+          }
+        ],
+        "relationshipUpdateDisabled": false
+      },
+      "collectionLevel": {},
+      "changed": false
+    },
+    "dtDiagram": {
+      "collapsedNodes": [],
+      "shouldDistributeCollections": false
+    }
+  }
+}

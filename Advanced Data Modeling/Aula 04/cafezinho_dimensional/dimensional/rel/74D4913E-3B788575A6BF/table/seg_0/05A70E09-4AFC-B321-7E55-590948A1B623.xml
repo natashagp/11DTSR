@@ -1,0 +1,195 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05A70E09-4AFC-B321-7E55-590948A1B623" name="Dim_Filial_Empresa">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:45:15 UTC</createdTime>
+<generatorID>BF032FB2-72AD-8E44-4FBC-C06B5086B727</generatorID>
+<ownerDesignName>dimensional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Filial_Id" id="6192E483-02E4-9026-5083-DFF4CA5F5814">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:45:15 UTC</createdTime>
+<generatorID>50923981-CF5B-CFB4-EF79-E21CA601C0BE</generatorID>
+<ownerDesignName>dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filial_Codigo" id="961A7FE0-A201-DF69-40AE-F889997B7C95">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:45:15 UTC</createdTime>
+<generatorID>BF2A2CE3-6F88-526A-7FF6-C5D56BFEA5EA</generatorID>
+<ownerDesignName>dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,4,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filial_Fantasia" id="56FDB5BE-199A-7EFC-33BE-F4EA2B7D77B7">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:45:15 UTC</createdTime>
+<generatorID>CF001011-8A8A-C880-A465-A65809CC6932</generatorID>
+<ownerDesignName>dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filial_CNPJ" id="4A48A4A2-2289-C3E7-8710-AEE3DCD7F836">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:45:15 UTC</createdTime>
+<generatorID>E8AD323B-5164-4BA9-F050-9D80D23A5647</generatorID>
+<ownerDesignName>dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filial_IE" id="362707FB-2961-1449-D2E5-03D47590673C">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:45:15 UTC</createdTime>
+<generatorID>F56C9D34-E420-8D93-C750-D1858BCC97B2</generatorID>
+<ownerDesignName>dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filial_Endereco" id="8D1583F5-2598-26D1-3F97-5B530C93E28B">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:45:15 UTC</createdTime>
+<generatorID>A95C4C36-8A73-33E0-0A23-D76461256377</generatorID>
+<ownerDesignName>dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filial_Bairro" id="BC25E1AC-1E9C-DFB5-0F94-9483D95B7C99">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:45:15 UTC</createdTime>
+<generatorID>6C61C0CF-7DC6-73A4-F6E5-8BCDE2EB1364</generatorID>
+<ownerDesignName>dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filial_Cidade" id="9D44161D-4CF6-8A95-B22B-CF0CBF903C70">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:45:15 UTC</createdTime>
+<generatorID>82811401-D39E-706C-E9BE-D10A11DD462A</generatorID>
+<ownerDesignName>dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filial_Estado" id="24050B0A-B100-8D01-FFD4-253E69D7B3A0">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:45:15 UTC</createdTime>
+<generatorID>275AA44E-045D-B868-2DAC-FB09F031A8A1</generatorID>
+<ownerDesignName>dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filial_CEP" id="CEDB6853-500C-F1DB-950E-A35E8EE1A7D2">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:45:15 UTC</createdTime>
+<generatorID>5A144A14-38B4-79FA-271B-EE59BBA6CD57</generatorID>
+<ownerDesignName>dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filial_Ultimo_Extrato" id="2986C938-F802-66B7-C2DF-CE9988BCFBC2">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:45:15 UTC</createdTime>
+<generatorID>D58A3D9F-4A9C-7A4B-84A6-59E89D416D0D</generatorID>
+<ownerDesignName>dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empresa_Id" id="26888915-DC6F-FC9C-4085-2C06DEB5544C">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:45:15 UTC</createdTime>
+<generatorID>3886B42B-62DC-68EC-3C2F-28AFA811634E</generatorID>
+<ownerDesignName>dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empresa_Codigo" id="AEADB9C4-38F3-CC0C-1D8B-AD0C9AC7720A">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:45:15 UTC</createdTime>
+<generatorID>73E2CA21-6797-8642-D8A7-FB952A5ABDAF</generatorID>
+<ownerDesignName>dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empresa_Nome" id="9215FEB4-55CB-893E-294F-3623ABB8723A">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:45:15 UTC</createdTime>
+<generatorID>6DFE80E2-8FE7-02DA-AB11-83E357FC5CB8</generatorID>
+<ownerDesignName>dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75A5B509-5D50-A277-AC64-9DAEC04A29E4" name="Dim_Filial_Empresa_PK">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:45:15 UTC</createdTime>
+<generatorID>4F64B83F-26EE-123C-877C-47E5DADD021A</generatorID>
+<ownerDesignName>dimensional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6192E483-02E4-9026-5083-DFF4CA5F5814"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

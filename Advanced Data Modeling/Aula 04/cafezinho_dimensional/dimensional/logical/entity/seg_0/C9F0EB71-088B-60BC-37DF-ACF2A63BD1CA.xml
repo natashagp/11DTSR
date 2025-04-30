@@ -1,0 +1,188 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C9F0EB71-088B-60BC-37DF-ACF2A63BD1CA" name="Fato_Cupom">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-29 23:40:10 UTC</createdTime>
+<ownerDesignName>dimensional</ownerDesignName>
+<engineerTo>
+<item key="74D4913E-9F81-0E87-DF02-3B788575A6BF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cupom_Id" id="B52B1560-462B-6F98-F9FA-04D205BEC234">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-29 23:44:09 UTC</createdTime>
+<ownerDesignName>dimensional</ownerDesignName>
+<engineerTo>
+<item key="74D4913E-9F81-0E87-DF02-3B788575A6BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cupom_Extrato" id="91F678A2-5D0A-0E64-2BEA-C06208EF5D4E">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-29 23:48:34 UTC</createdTime>
+<ownerDesignName>dimensional</ownerDesignName>
+<engineerTo>
+<item key="74D4913E-9F81-0E87-DF02-3B788575A6BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cupom_Desconto" id="21D863A5-816A-9B1B-BD24-517CEDC8DA77">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-29 23:44:37 UTC</createdTime>
+<ownerDesignName>dimensional</ownerDesignName>
+<engineerTo>
+<item key="74D4913E-9F81-0E87-DF02-3B788575A6BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cupom_Quantidade" id="38BEF8F9-F2C9-06F2-6E13-5DE311775B10">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-29 23:45:09 UTC</createdTime>
+<ownerDesignName>dimensional</ownerDesignName>
+<engineerTo>
+<item key="74D4913E-9F81-0E87-DF02-3B788575A6BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cupom_Valor_Unitario" id="F112D66C-B15A-4E99-9CAC-D1D5D9E57912">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:43:11 UTC</createdTime>
+<ownerDesignName>dimensional</ownerDesignName>
+<engineerTo>
+<item key="74D4913E-9F81-0E87-DF02-3B788575A6BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cupom_Total" id="48DAE530-65D9-ADE4-8BDE-158D8A86E487">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-29 23:46:38 UTC</createdTime>
+<ownerDesignName>dimensional</ownerDesignName>
+<engineerTo>
+<item key="74D4913E-9F81-0E87-DF02-3B788575A6BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cupom_Valor_Recebido" id="C94742AA-0191-A7D1-5C17-4C1E71E5EEF2">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-29 23:46:56 UTC</createdTime>
+<ownerDesignName>dimensional</ownerDesignName>
+<engineerTo>
+<item key="74D4913E-9F81-0E87-DF02-3B788575A6BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_Id" id="9133F023-AE14-C441-269E-B8FC5BA63AE4">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-29 23:50:25 UTC</createdTime>
+<generatorID>127A35B9-E954-3562-7CA8-0E98FFBC3A69</generatorID>
+<ownerDesignName>dimensional</ownerDesignName>
+<engineerTo>
+<item key="74D4913E-9F81-0E87-DF02-3B788575A6BF" value="true"/>
+</engineerTo>
+<referedAttribute>4031DEE5-96A9-F123-AB61-CF3FAF96446A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Filial_Id" id="BF8B23B2-351E-F0B8-1C2D-16E9159D8D45">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-29 23:55:51 UTC</createdTime>
+<generatorID>7A57E8C6-BF4D-6F4D-6756-F0ED471B8652</generatorID>
+<ownerDesignName>dimensional</ownerDesignName>
+<engineerTo>
+<item key="74D4913E-9F81-0E87-DF02-3B788575A6BF" value="true"/>
+</engineerTo>
+<referedAttribute>50923981-CF5B-CFB4-EF79-E21CA601C0BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pagamento_Id" id="441603FC-9FD7-1D7A-67B4-B2EB16C95A11">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:15:01 UTC</createdTime>
+<generatorID>C3EFC2F1-9168-E5EE-C398-E533A2FB0B85</generatorID>
+<ownerDesignName>dimensional</ownerDesignName>
+<engineerTo>
+<item key="74D4913E-9F81-0E87-DF02-3B788575A6BF" value="true"/>
+</engineerTo>
+<referedAttribute>1BA8CFF8-C136-BA0B-DF8A-BB04F1276191</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Produto_Id " id="8A72B01A-8FE4-21F0-F730-0352B131F6B9">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-30 00:37:42 UTC</createdTime>
+<generatorID>C060F59A-A733-0016-1415-5C1722ECC7D2</generatorID>
+<ownerDesignName>dimensional</ownerDesignName>
+<engineerTo>
+<item key="74D4913E-9F81-0E87-DF02-3B788575A6BF" value="true"/>
+</engineerTo>
+<referedAttribute>87640BD2-AC54-4935-82C0-0084B9E10E95</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="119021D1-FBEE-B8DE-FAD9-8CFB7849C829" name="Fato_Cupom PK">
+<createdBy>natashagp</createdBy>
+<createdTime>2025-04-29 23:44:33 UTC</createdTime>
+<ownerDesignName>dimensional</ownerDesignName>
+<engineerTo>
+<item key="74D4913E-9F81-0E87-DF02-3B788575A6BF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B52B1560-462B-6F98-F9FA-04D205BEC234</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

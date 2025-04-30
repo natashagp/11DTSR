@@ -1,0 +1,47 @@
+{
+    "Nota Fiscal ID": "Lorem",
+    "Data Emissao": "Lorem",
+    "Estabelecimento": {
+        "Nome": "Lorem",
+        "Endereco": "Lorem",
+        "Bairro": "Lorem",
+        "Cidade": "Lorem",
+        "Estado": "Lorem",
+        "CEP": "Lorem",
+        "CNPJ": "Lorem",
+        "IE": "Lorem"
+    },
+    "Produtos": [
+        {
+            "Codigo": "Lorem",
+            "Nome do Produto": "Lorem",
+            "Quantidade": -50,
+            "Preco Unitario": -15,
+            "Total Item": -46
+        },
+        {
+            "Codigo": "Lorem",
+            "Nome do Produto": "Lorem",
+            "Quantidade": -44,
+            "Preco Unitario": 0,
+            "Total Item": 95
+        },
+        {
+            "Codigo": "Lorem",
+            "Nome do Produto": "Lorem",
+            "Quantidade": -62,
+            "Preco Unitario": 92,
+            "Total Item": 45
+        }
+    ],
+    "Quantidade Total de Itens": -60,
+    "Valor Sem Desconto": -60,
+    "Desconto": 55,
+    "Valor Final": -84,
+    "Pagamento": {
+        "Codigo": 81,
+        "Descricao": "Lorem",
+        "Valor": -98
+    },
+    "Troco": -90
+}
